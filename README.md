@@ -1,4 +1,37 @@
-SPOTİFY VER ANALİZ
+
+https://www.kaggle.com/code/neslihantoprak/spotify-data-analiz-neslihantoprak/edit/run/209170555
+
+ya da spotify-data-analiz-neslihantoprak.ipynb ile ulaşabilirsiniz.
+
+
+SPOTİFY VERi ANALİZ
+Kullanılan kütüphaneler:
+
+Pandas, veri işleme ve analizi için kullanılan güçlü bir Python kütüphanesidir. Özellikle CSV dosyalarından veri yüklemek, veri çerçeveleri (DataFrames) ile çalışmak ve veriyi manipüle etmek için kullanılır.
+
+Matplotlib, 2D grafikler ve görselleştirmeler oluşturmak için kullanılan bir kütüphanedir. Verilerin görselleştirilmesi için çizgi grafikler, çubuk grafikler, histogramlar ve daha fazlasını oluşturabiliriz.
+
+Kullanım: Verileri görselleştirmek, çizgi grafikleri, histogramlar ve diğer görsel analizleri oluşturmak.
+
+
+Seaborn, Matplotlib üzerine inşa edilmiş ve veri görselleştirmelerini daha estetik hale getiren bir kütüphanedir. Veri çerçeveleri ile uyumlu çalışır ve gelişmiş görselleştirmeler sunar.
+
+Kullanım: İleri düzey görselleştirmeler, korelasyon haritaları, dağılım grafiklerine estetik eklemek.
+
+
+os kütüphanesi, dosya ve dizin işlemleri yapmanızı sağlar. Dosya yollarını yönetme, dosya okuma/yazma ve dizin içinde gezinme gibi işlemler için kullanılır.
+
+Kullanım: Dosya yollarını kontrol etmek, dosya ve klasör işlemleri yapmak.
+
+
+random kütüphanesi, rastgele sayılar üretmek, rastgele seçimler yapmak ve benzeri işlemler için kullanılır.
+
+Kullanım: Veri seti üzerinde rastgele işlemler yapmak, örnekleme, karıştırma.
+
+
+missingno kütüphanesi, eksik veri tespiti ve görselleştirmesi yapmak için kullanılır. Veri setindeki eksik değerlerin görsel olarak incelenmesine olanak tanır.
+
+Kullanım: Eksik verilerin analizi ve görselleştirilmesi, eksik veri durumunu hızlıca tespit etmek.
 track_id: Her bir şarkının benzersiz kimliği.
 artists: Şarkıyı seslendiren sanatçılar.
 album_name: Şarkının yer aldığı albüm.
@@ -30,9 +63,6 @@ Bu bilgilerden sonra veri analizi aşamaları şöyledir:
 6.AYKIRI DEĞER ANALİZİ
 7.FEATURE ENGİNEERİNG
 
-Pandas: Veri yapıları ve veri analizi için kullanılır.
-Seaborn: Verilerin görselleştirilmesi için kullanılır.
-Matplotlib: Verilerin görselleştirilmesi için kullanılır (Seaborn Matplotlib üzerine inşa edilmiştir).
 
 
 En çok tercih edilen türler, ülkelerin dinlenmeleri en fazla hangi ülkelerden oluşan bir veriseti olduğunu görüyoruz.UK,JAPAN, USA ülkeleri fazlasıyla var.Tercih edilen türler ile ilgili notlar kodda mevcuttur.Aykırı değerler için çeşitli yöntemlerle düzeltmeler yapılmıştır.
